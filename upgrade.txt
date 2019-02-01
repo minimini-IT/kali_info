@@ -1,0 +1,9 @@
+wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+
+apt-get autoremove
+apt autoremove
+
+apt-get clean
+
+apt-get update
+apt-get upgrade
